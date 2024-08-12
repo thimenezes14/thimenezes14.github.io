@@ -7,10 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run vite build",
-    "deploy": "gh-pages -d dist",
-    "postdeploy": "echo 'Successfully deployed to portfolio'"
+    "preview": "vite preview"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
