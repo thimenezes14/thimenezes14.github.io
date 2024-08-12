@@ -9,12 +9,12 @@ export default defineConfig({
       src: `${__dirname}/src`,
     }
   },
-  compilerOptions: {
-    baseUrl: `./`,
-    paths: {
-      "src/*": [
-          "./src/*"
-      ]
-    }
-  }
+  // compilerOptions: {
+  //   baseUrl: `./`,
+  //   paths: {
+  //     "src/*": [
+  //         "./src/*"
+  //     ]
+  //   }
+  // }
 })
