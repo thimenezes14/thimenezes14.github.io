@@ -19,8 +19,8 @@ const OnGoing = () => {
         <div className={'construction'}>
             <Lottie
                 options={defaultOptions}
-                height={250}
-                width={400}
+                height={200}
+                width={300}
                 style={{margin: '0 auto', padding: '0'}}
             />
             <h1 className={'title'}>Em construção</h1>
