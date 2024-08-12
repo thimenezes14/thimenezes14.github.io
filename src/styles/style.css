@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kanit:wght@200..800&display=swap');
+
+.construction {
+    font-family: 'Kanit', sans-serif;
+}
+
+.construction h1,
+.construction h2 {
+    color: #0a2480;
+}
+
+.construction p {
+    color: #000000;
+}
+
+.construction h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.construction h1.title {
+    margin: auto 0;
+}
+
+.construction h2 {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 1rem auto;
+}
+
+.construction p {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.construction p.copyright {
+    color: #505050;
+    font-size: 1.2rem;
+}
+
+.construction ul.features-list {
+    list-style-type: none;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.construction ul.features-list li {
+    width: 100%;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    background-color: #0a2480;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 0.5rem auto;
+    border-radius: 10px;
+}
+
